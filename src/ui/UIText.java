@@ -25,11 +25,19 @@ public class UIText {
                     awaitSignUpState();
                     break;
                 case AWAITSLOGIN:
+                    awaitLogin();
                     break;
                 case AWAITSCOMMAND:
+                    awaitCommand();
                     break;
             }
         }
+    }
+
+    private void awaitCommand() {
+    }
+
+    private void awaitLogin() {
     }
 
     private void startState(){
@@ -37,8 +45,6 @@ public class UIText {
     }
     private void awaitSignUpState() {
     }
-
-
 
     private static void imprime(){
         for(int i = 0; i < 50; i++){
