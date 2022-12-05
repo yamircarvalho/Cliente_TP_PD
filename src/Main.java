@@ -8,7 +8,6 @@ public class Main {
             return;
         }
         Client client = new Client(Integer.parseInt(args[0]), args[1]);
-
         System.out.println(args[0] + args[1]);
 
         UIText uiText = new UIText(client);
